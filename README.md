@@ -12,13 +12,15 @@ This lab will provide some practice doing the following:
 
 ## Setup
 
-Please complete this lab in a React [CodeSandbox](https://codesandbox.io) named "React Students".
+- In your terminal navigate to the proper directory where you keep your labs.
+- Run `npx create-react-app react-nested-props` to create a new React App.
+- Navigate into your new React App with `cd react-nested-props`.
 
 ## Minimum Requirements
 
 **The layout and styling of the markup is left up to your discretion.**
 
-1. Add a `students` value to the `<App>` component and initialize it with the following array of "student" data:
+1. Within the `<App>` component create a `students` variable and initialize it with the following array of data.
 
 ```js
 [
